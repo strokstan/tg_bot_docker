@@ -16,3 +16,7 @@ This Telegram bot is built using the aiogram library and can help you find out c
 3) Select the desired item from the menu on your keyboard: “Weather”, “Exchange rates”, “Cat pics”.
 4) Enter the required parameters (e.g. city to get weather or currency name to get exchange rates).
 5) Get a response from the bot
+
+### How to build a Docker image
+1) docker build -t tg-bot-imagename .
+2) docker run python-imagename .
